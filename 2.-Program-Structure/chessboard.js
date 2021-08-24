@@ -13,7 +13,7 @@ for (let i = 0; i < 8; ++i) {
 				if (j % 2 == 0)
 					str += '#';
 				else
-		        	str += ' ';
+		        		str += ' ';
 			}
 	}
 	console.log (str + '\n');
