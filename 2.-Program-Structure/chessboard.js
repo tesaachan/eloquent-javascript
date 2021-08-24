@@ -1,7 +1,7 @@
 let str;
 
 for (let i = 0; i < 8; ++i) {
-  str = '';
+	str = '';
 	for (let j = 0; j < 8; ++j) {
 		if (i % 2 == 0) {
 			if (j % 2 == 0)
@@ -13,7 +13,7 @@ for (let i = 0; i < 8; ++i) {
 			if (j % 2 == 0)
 				str += '#';
 			else
-        str += ' ';
+        		str += ' ';
 		}
 	}
 	console.log (str + '\n');
