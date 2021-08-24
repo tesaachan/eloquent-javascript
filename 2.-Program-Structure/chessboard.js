@@ -1,8 +1,9 @@
 let str;
+let size = 8;
 
-for (let i = 0; i < 8; ++i) {
+for (let i = 0; i < size; ++i) {
 	str = '';
-	for (let j = 0; j < 8; ++j) {
+	for (let j = 0; j < size; ++j) {
 		if (i % 2 == 0) {
 			if (j % 2 == 0)
         			str += ' ';
