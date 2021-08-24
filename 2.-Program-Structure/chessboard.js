@@ -8,13 +8,13 @@ for (let i = 0; i < 8; ++i) {
         			str += ' ';
 			else
 				str += '#';
-			}
-			else {
-				if (j % 2 == 0)
-					str += '#';
-				else
-		        		str += ' ';
-			}
+		}
+		else {
+			if (j % 2 == 0)
+				str += '#';
+			else
+	        		str += ' ';
+		}
 	}
 	console.log (str + '\n');
 }
