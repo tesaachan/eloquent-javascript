@@ -115,7 +115,7 @@ console.log(findSolution(24));
 	while (chickenString.length < 3) {
 		chickenString = "0" + chickenString;
 	}
-	console.log(`${chicenString} chickens`);
+	console.log(`${chickenString} chickens`);
 }
 printFarmInventory(7, 11); //007 cows 011 chickens
 
