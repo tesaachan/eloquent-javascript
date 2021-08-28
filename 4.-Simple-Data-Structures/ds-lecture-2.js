@@ -86,6 +86,7 @@ for (let event of journalEvents(journal)) {
 }
 
 
+
 // Широко используемые методы для работы с массивами
 
 // 1.
@@ -135,17 +136,3 @@ function remove(array, index) {
 }
 
 remove(["a", "b", "c", "d", "e"], 2); //["a", "b", "d", "e"]
-
-
-// Строки и их свойства
-
-// к строкам нельзя добавлять свойства!
-
-let Kim = "Ким";
-Kim.age = 88;
-console.log(Kim.age) //undefined
-
-// методы slice и indexOf как у массивов
-// при этом indexOf может искать не только один элемент (символ), но и подстроку
-
-
