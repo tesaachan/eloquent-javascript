@@ -24,3 +24,8 @@ console.log(deepEqual(obj, {here: {is: "an"}, object: 2})); // true
 for (let key of Object.keys(obj)) {
 	console.log(obj[key]);
 }
+
+// или
+
+let here = "here";
+console.log(obj[here]); // {is: "an"}
